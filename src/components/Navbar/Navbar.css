@@ -1,14 +1,15 @@
 .navbar {
     background-color: #060b26;
-    height: 80px;
+    height: 8vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .menu-bars {
-    margin-left: 2rem;
-    font-size: 2rem;
+    margin: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
     background: none;
 }
 
@@ -22,6 +23,7 @@
     top: 0;
     left: -100%;
     transition: 850ms;
+    opacity: 0.9;
 }
 
 .nav-menu.active {
@@ -61,12 +63,18 @@
 .navbar-toggle {
     background-color: #060b26;
     width: 100%;
-    height: 80px;
+    height: 8vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 span {
-    margin-left: 16px;
+    margin-left: 12px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 0;
 }

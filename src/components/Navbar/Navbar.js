@@ -18,6 +18,7 @@ function Navbar() {
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
+          <span className="logo">Tracking Portal</span>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
@@ -25,6 +26,7 @@ function Navbar() {
               <Link to="#" className="menu-bars">
                 <FaIcons.FaTimes />
               </Link>
+              <span className="logo">Tracking Portal</span>
             </li>
             {SidebarItems.map((item, index) => {
               return (
