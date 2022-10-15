@@ -1,0 +1,16 @@
+.documentations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+input {
+    width: 30%;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}

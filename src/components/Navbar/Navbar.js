@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
+import * as FcIcons from "react-icons/fc";
 import { Link } from "react-router-dom";
 import { SidebarItems } from "../Sidebar/SidebarItems";
 import "./Navbar.css";
@@ -19,6 +20,9 @@ function Navbar() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <span className="logo">Tracking Portal</span>
+          <span className="search">
+            <FcIcons.FcSearch title="search" />
+          </span>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>

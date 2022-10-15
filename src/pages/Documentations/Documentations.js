@@ -1,13 +1,12 @@
 import React from "react";
-import Card from "../components/DocumentCard/Card";
+import Card from "../../components/Card/Card";
+import "./Documentations.css";
 
 function Documentations() {
   return (
     <div className="documentations">
-      <div>
-        <h1>Documentations</h1>
-      </div>
-      <div>
+      <input placeholder="search docx" />
+      <div className="wrapper">
         <Card />
         <Card />
         <Card />

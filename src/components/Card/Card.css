@@ -9,7 +9,6 @@
     justify-content: space-between;
     transition: transform 200ms ease-in;
     margin-top: 1rem;
-    width: 100%;
 }
 
 .card:hover {
@@ -17,16 +16,15 @@
 }
 
 .card-title {
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 .card-desc {
-    padding: 0 0.5rem;
+    padding: 0 0.2rem;
 }
 
 .card-btn {
-    padding: 0.5rem;
-    width: 25%;
+    padding: 0.2rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
@@ -39,6 +37,6 @@
 }
 
 .card:hover .card-btn {
-    background: darkblue;
+    background: greenyellow;
     color: white;
 }

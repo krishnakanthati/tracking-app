@@ -7,7 +7,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.home, .reports, .products, .documentations, .messages, .support {
+.home, .reports, .products, .messages, .support {
   display: flex;
   flex-direction: column;
   height: 90vh;

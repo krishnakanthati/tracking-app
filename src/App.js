@@ -6,7 +6,7 @@ import Reports from "./pages/Reports";
 import Support from "./pages/Support";
 import Products from "./pages/Products";
 import Messages from "./pages/Messages";
-import Documentations from "./pages/Documentations";
+import Documentations from "./pages/Documentations/Documentations";
 
 function App() {
   return (
