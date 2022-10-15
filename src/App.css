@@ -9,6 +9,7 @@
 
 .home, .reports, .products, .documentations, .messages, .support {
   display: flex;
+  flex-direction: column;
   height: 90vh;
   align-items: center;
   justify-content: center;
