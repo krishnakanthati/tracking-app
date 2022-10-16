@@ -29,4 +29,11 @@
 
 .card-desc {
     padding: 0 0.2rem;
+    font-size: 0.8rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.card-owner {
+    color: red;
 }

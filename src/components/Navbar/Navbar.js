@@ -21,9 +21,9 @@ function Navbar() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <span className="logo">Tracking Portal</span>
-          <span className="search">
+          <Link to="/documentations" className="search">
             <FcIcons.FcSearch title="search" />
-          </span>
+          </Link>
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
