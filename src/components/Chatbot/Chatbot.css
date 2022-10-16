@@ -1,0 +1,19 @@
+.chatbot {
+    height: 5rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: .2rem;
+    border: .2rem solid black;
+    bottom: 1rem;
+    right: 1rem;
+    position: fixed;
+    cursor: pointer;
+}
+
+.bot-icon {
+    font-size: 1.5rem;
+}

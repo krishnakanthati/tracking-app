@@ -8,7 +8,7 @@ function Documentations() {
     fetch("https://jsonplaceholder.typicode.com/comments")
       .then((response) => response.json())
       .then((json) => setInfo(json));
-  });
+  }, []);
   const [searchfield, setSearchfield] = useState("");
   const filteredSearch = info.filter((data) => {
     return data.name.toLowerCase().includes(searchfield.toLowerCase());
