@@ -12,6 +12,7 @@ function Navbar() {
   const showSidebar = () => {
     setSidebar(!sidebar);
   };
+
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>

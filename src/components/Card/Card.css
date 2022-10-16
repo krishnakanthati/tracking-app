@@ -2,7 +2,7 @@
     overflow: hidden;
     border: 0.1rem solid black;
     border-radius: 0.5rem;
-    padding: 0rem .5rem;
+    padding: 0rem .2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,35 +11,22 @@
     background-color: whitesmoke;
     height: 40vh;
     width: 100%;
+    cursor: pointer;
 }
 
 .card:hover {
     transform: scale(1.1);
 }
 
+.card-no {
+    padding: 0.2rem;
+}
+
 .card-title {
     padding: 0.2rem;
+    color: blueviolet;
 }
 
 .card-desc {
     padding: 0 0.2rem;
-}
-
-.card-btn {
-    padding: 0.2rem;
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 1rem;
-    margin: 1rem;
-    border: 2px solid black;
-    background-color: transparent;
-    border-radius: .5rem;
-    transition: background 200ms ease-in, color 200ms ease-in;
-    cursor: pointer;
-    width: 70%;
-}
-
-.card:hover .card-btn {
-    background: rgb(239, 219, 194);
-    color: white;
 }
