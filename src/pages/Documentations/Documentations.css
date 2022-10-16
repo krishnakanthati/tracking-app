@@ -1,16 +1,29 @@
 .documentations {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 1rem;
 }
 
 input {
-    width: 30%;
+    width: 40rem;
     border-radius: 1.5rem;
     height: 2.5rem;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 900;
     padding: 1rem;
+    letter-spacing: .02rem;
+}
+
+.wrapper {
+    display: grid;
+    padding: 1rem 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
 }

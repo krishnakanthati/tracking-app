@@ -5,11 +5,34 @@ import "./Documentations.css";
 function Documentations() {
   return (
     <div className="documentations">
-      <input placeholder="search docx" />
+      <div className="search-input">
+        <input placeholder="search docx" />
+      </div>
       <div className="wrapper">
-        <Card />
-        <Card />
-        <Card />
+        <div>
+          <Card />
+        </div>
+        <div>
+          <Card />
+        </div>
+        <div>
+          <Card />
+        </div>
+        <div>
+          <Card />
+        </div>
+        <div>
+          <Card />
+        </div>
+        <div>
+          <Card />
+        </div>
+        <div>
+          <Card />
+        </div>
+        <div>
+          <Card />
+        </div>
       </div>
     </div>
   );
