@@ -14,7 +14,7 @@ function Card({ id, name, body, email }) {
         <hr></hr>
         <br />
         <p className="card-desc">
-          <b>Issue Description:</b> {body}
+          <b>Issue Description:</b> {body.substring(0, 75)}...
         </p>
       </div>
       <p className="card-owner">{email} </p>

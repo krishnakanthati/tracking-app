@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+input:focus {
+  outline: none;
+}
+
 .home, .reports, .products, .messages, .support {
   display: flex;
   flex-direction: column;
