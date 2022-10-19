@@ -8,11 +8,12 @@
     width: 100%;
 }
 
-.menu-bars {
+.menu-bars, .help {
     margin: 0.9rem;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     background: none;
+    color: white;
 }
 
 .nav-menu {
@@ -86,7 +87,7 @@ span {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    border: 1px solid white;
+    border: .1rem solid white;
     font-size: 1.5rem;
     padding: 0.3rem;
     border-radius: 100%;
@@ -94,18 +95,53 @@ span {
     margin-left: auto;
 }
 
+.user {
+    display: flex;
+    border: .1rem solid white;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: blue;
+    margin-left: 12px;
+    color: black;
+    background-color: white;
+}
+
+.nova {
+    font-size: 0;
+}
+
+.nova:hover {
+    font-size: 1rem;
+}
+
+.user:hover {
+    width: 6rem;
+    border-radius: 1.5rem;
+    transition: 25ms linear;
+    color: black;
+    font-size: 1.5rem;
+}
+
 .search:hover{
-    animation: rotate 1s linear;
+    animation: rotate 300ms linear;
 }
 
 @keyframes rotate{
     0%{
         transform: rotate(0deg);
     }
+    25%{
+        transform: rotate(25deg);
+    }
     50%{
-        transform: rotate(180deg);
+        transform: rotate(-25deg);
+    }
+    75%{
+        transform: rotate(0deg);
     }
     100%{
-        transform: rotate(360deg);
+        transform: rotate(25deg);
     }
 }
