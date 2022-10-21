@@ -78,11 +78,11 @@ span {
 
 .logo {
     color: white;
-    font-size: 1.5rem;
+    font-size: 4vh;
     margin-left: 0;
 }
 
-.search{
+.search {
     background-color: white;
     display: flex;
     justify-content: flex-end;
@@ -95,25 +95,32 @@ span {
     margin-left: auto;
 }
 
-.user {
+.user, .notif {
     display: flex;
     border: .1rem solid white;
     font-size: 1.5rem;
     padding: 0.3rem;
-    border-radius: 100%;
+    border-radius: 1.5rem;
     cursor: pointer;
     background-color: blue;
     margin-left: 12px;
     color: black;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon {
+    margin-right: auto;
 }
 
 .nova {
-    font-size: 0;
-}
-
-.nova:hover {
+    color: #1c00c8;
     font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    text-decoration: none;
+    margin: auto auto;
 }
 
 .user:hover {
@@ -124,24 +131,28 @@ span {
     font-size: 1.5rem;
 }
 
-.search:hover{
+.notif:hover {
     animation: rotate 300ms linear;
 }
 
-@keyframes rotate{
-    0%{
+@keyframes rotate {
+    0% {
         transform: rotate(0deg);
     }
-    25%{
+
+    25% {
         transform: rotate(25deg);
     }
-    50%{
+
+    50% {
         transform: rotate(-25deg);
     }
-    75%{
+
+    75% {
         transform: rotate(0deg);
     }
-    100%{
+
+    100% {
         transform: rotate(25deg);
     }
 }

@@ -1,0 +1,28 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c00c8;
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0rem 2rem;
+    font-size: .8rem;
+}
+
+.copyright {
+    font-style: italic;
+}
+
+.team {
+    margin: 0rem 1rem;
+    color: #2bf2e4;
+}
+
+.company {
+    margin-left: auto;
+    color: #2bf2e4;
+}

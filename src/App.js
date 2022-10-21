@@ -7,6 +7,7 @@ import Support from "./pages/Support";
 import Products from "./pages/Products";
 import Messages from "./pages/Messages";
 import Documentations from "./pages/Documentations/Documentations";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/support" element={<Support />}></Route>
           <Route path="/messages" element={<Messages />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </>
   );

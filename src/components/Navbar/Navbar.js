@@ -6,12 +6,22 @@ import { SidebarItems } from "./SidebarItems.js";
 import "./Navbar.css";
 // import { IconContext } from "react-icons";
 import * as AiIcons from "react-icons/ai";
+import * as IoIcons from "react-icons/io";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
+  const [nova, setNova] = useState("");
 
   const showSidebar = () => {
     setSidebar(!sidebar);
+  };
+
+  const showNova = (e) => {
+    setNova("hatikri");
+  };
+
+  const hideNova = (e) => {
+    setNova("");
   };
 
   return (
@@ -25,8 +35,19 @@ function Navbar() {
         <Link to="/documentations" className="search">
           <FcIcons.FcSearch title="search" />
         </Link>
-        <Link to="/" class="user">
-          <AiIcons.AiOutlineUser />
+        <Link
+          to="/"
+          className="user"
+          onMouseEnter={showNova}
+          onMouseLeave={hideNova}
+        >
+          <AiIcons.AiOutlineUser className="user-icon" />
+          <p className="nova" title="nova">
+            {nova}
+          </p>
+        </Link>
+        <Link to="/" className="notif">
+          <IoIcons.IoMdNotificationsOutline />
         </Link>
       </div>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
