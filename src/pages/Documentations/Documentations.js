@@ -20,7 +20,11 @@ function Documentations() {
   return (
     <div className="documentations">
       <div className="search-input">
-        <input placeholder="search docx" onChange={onSearchChange} />
+        <input
+          placeholder="search docx"
+          onChange={onSearchChange}
+          className="search-docx"
+        />
       </div>
       <div>
         <CardList info={filteredSearch} />

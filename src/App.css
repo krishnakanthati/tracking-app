@@ -15,12 +15,11 @@ a {
   text-decoration: none;
 }
 
-.home, .reports, .products, .messages, .support {
+.login-page, .reports, .products, .messages, .support {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
   min-height: 87vh;
   background-color: #ededf5;
 }
