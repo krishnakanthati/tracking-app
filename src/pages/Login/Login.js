@@ -5,7 +5,7 @@ function Login() {
   return (
     <div className="login-page">
       <div className="login">
-        <h1 className="login-header">Login</h1>
+        <p className="login-header">Login</p>
         <form method="post" className="login-form">
           <div className="text-field">
             <input type="text" min="7" max="7" required />
