@@ -8,16 +8,15 @@ import "./Navbar.css";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 
-function Navbar() {
+function Navbar(props) {
   const [sidebar, setSidebar] = useState(false);
   const [nova, setNova] = useState("");
-
   const showSidebar = () => {
     setSidebar(!sidebar);
   };
 
   const showNova = (e) => {
-    setNova("hatikri");
+    setNova(props.nova);
   };
 
   const hideNova = (e) => {

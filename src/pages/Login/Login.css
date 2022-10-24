@@ -11,6 +11,7 @@
     padding: 0 0 1rem 0;
     border-bottom: .15rem solid #1c00c8;
     color: #1c00c8;
+    font-weight: bold;
 }
 
 .login-form {
