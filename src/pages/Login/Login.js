@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css";
+import * as FaIcons from "react-icons/fa";
 
 function Login(props) {
   const handleSubmit = (event) => {
@@ -10,7 +11,9 @@ function Login(props) {
   return (
     <div className="login-page">
       <div className="login">
-        <p className="login-header">Login</p>
+        <p className="login-header">
+          Login <FaIcons.FaUser className="login-user-icon" />
+        </p>
         <form method="post" className="login-form" onSubmit={handleSubmit}>
           <div className="text-field">
             <input
@@ -29,7 +32,9 @@ function Login(props) {
             <label>Password</label>
           </div>
           <div className="forgot">Forgot Password?</div>
-          <input type="submit" value="Login" className="login-submit" />
+          <div className="login-submit-div">
+            <input type="submit" value="Go" className="login-submit" />
+          </div>
           <div className="signup-link">
             Not a member? <a href="/">signup</a>
           </div>

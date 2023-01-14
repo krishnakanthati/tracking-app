@@ -3,7 +3,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login/Login";
-import Reports from "./pages/Reports";
+import Reports from "./components/Reports/Reports";
 import Support from "./pages/Support";
 import Products from "./pages/Products";
 import Messages from "./pages/Messages";
