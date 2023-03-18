@@ -5,7 +5,7 @@ import * as AiIcons from "react-icons/ai";
 function Reports() {
   return (
     <div className="reports">
-      <h1 className="reports-header">Reports</h1>
+      <h2 className="reports-header">Reports</h2>
       <div className="dashboard">
         <div className="report-1">
           <div className="report-heading">TOTAL TASKS COMPLETED</div>

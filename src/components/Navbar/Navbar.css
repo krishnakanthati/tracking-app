@@ -6,6 +6,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    position: relative;
 }
 
 .menu-bars, .help {
@@ -82,25 +83,48 @@ span {
     margin-left: 0;
 }
 
+.main-search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-search-input {
+    width: 25rem;
+    border-radius: 1.5rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border: .1rem solid #d5d5d5;
+    display:none;
+}
+
 .search {
     background-color: white;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     border: .1rem solid white;
-    font-size: 1.4rem;
+    font-size: 3.5vh;
     padding: 0.3rem;
     border-radius: 100%;
     cursor: pointer;
     margin-left: auto;
 }
 
+.main-search-input:target {
+    display: inline;
+}
+
 .user, .notif {
     display: flex;
     border: .1rem solid white;
-    font-size: 1.4rem;
+    font-size: 3.5vh;
     padding: 0.3rem;
-    border-radius: 1.5rem;
+    border-radius: 100%;
     cursor: pointer;
     background-color: blue;
     margin-left: .4rem;
@@ -115,9 +139,9 @@ span {
 }
 
 .nova {
-    color: #1c00c8;
+    color: black;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: .05rem;
     text-decoration: none;
     margin: auto auto;

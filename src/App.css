@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-.login-page, .products, .messages, .support {
+.login-page, .products, .messages, .support, .home {
   display: flex;
   flex-direction: column;
   align-items: center;

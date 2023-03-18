@@ -3,14 +3,14 @@
     width: 17.5rem;
     border-radius: .5rem;
     padding: 1.2rem 0;
-    border: .15rem solid #000;
+    border: .15rem solid #d5d5d5;
 }
 
 .login-header {
     font-size: 1.5rem;
     text-align: center;
     padding: 0 0 1rem 0;
-    border-bottom: .15rem solid #000;
+    border-bottom: .15rem solid #d5d5d5;
     color: #000;
     font-weight: bold;
 }
@@ -40,7 +40,7 @@
     border: none;
     background: none;
     outline: none;
-    border-bottom: 0.15rem solid #a6a6a6;
+    border-bottom: 0.15rem solid #d5d5d5;
 }
 
 .text-field label {

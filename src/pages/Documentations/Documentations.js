@@ -21,7 +21,7 @@ function Documentations() {
     <div className="documentations">
       <div className="search-input">
         <input
-          placeholder="search docx"
+          placeholder="search issue"
           onChange={onSearchChange}
           className="search-docx"
         />

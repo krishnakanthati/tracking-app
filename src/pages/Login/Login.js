@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Login.css";
 import * as FaIcons from "react-icons/fa";
 
 function Login(props) {
   const handleSubmit = (event) => {
     event.preventDefault();
-    props.getnova(event.target[0].value);
+
+    const user = event.target[0].value;
+    const password = event.target[1].value;
+
+    if (user === "krishna" && password === "password") {
+      props.getnova(user);
+    }
   };
+
+  const [id, setId] = useState("");
+  const [password, setPassword] = useState("");
 
   return (
     <div className="login-page">
@@ -22,12 +31,20 @@ function Login(props) {
               maxLength={7}
               required
               name="nova"
+              value={id}
+              onChange={(e) => setId(e.target.value)}
             />
             <span></span>
             <label>Nova Id</label>
           </div>
           <div className="text-field">
-            <input type="password" required name="password" />
+            <input
+              type="password"
+              required
+              name="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
             <span></span>
             <label>Password</label>
           </div>

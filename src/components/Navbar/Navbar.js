@@ -31,6 +31,9 @@ function Navbar(props) {
           <FaIcons.FaBars onClick={showSidebar} />
         </Link>
         <span className="logo">Tracking Portal</span>
+        <div className="main-search">
+          <input className="main-search-input" value={"search"} />
+        </div>
         <Link to="/documentations" className="search">
           <FcIcons.FcSearch title="search" />
         </Link>

@@ -13,9 +13,8 @@
     font-size: 1.2rem;
     font-weight: 500;
     padding: 1rem;
-    letter-spacing: .02rem;
     background-color: whitesmoke;
-    border: .1rem solid #1c00c8;
+    border: .1rem solid #d5d5d5;
 }
 
 .wrapper {

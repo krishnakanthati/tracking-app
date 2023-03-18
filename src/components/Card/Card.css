@@ -1,6 +1,6 @@
 .card {
     overflow: hidden;
-    border: 0.12rem solid black;
+    border: 0.12rem;
     border-radius: 0.5rem;
     padding: 0.2rem .2rem;
     display: flex;
